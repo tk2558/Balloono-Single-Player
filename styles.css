@@ -1,0 +1,184 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    background: #2e0000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Create a container for the canvas and button */
+.canvas-container {
+    display: flex;
+}
+
+canvas {
+    background: #2e0000;
+    float: left;
+    border: 3px solid #ffffff;
+}
+
+/* Style for player info box */
+#playerInfo {
+    position: absolute;
+    margin-left: 976px;
+    width: 120px;
+    height: 40px;
+    background-color: #c0c0c0;
+    border: 2px solid #ffffff;
+    float: left;
+    display: flex;
+    align-items: center; /* Center items vertically */
+    justify-content: center; /* Center items horizontally */
+}
+
+/* Style for dead player info box */
+#playerInfo.grayed {
+    background-color: #808080;
+}
+
+/* Style for the player image */
+#playerImage {
+    width: 16px;
+    height: 16px; 
+    margin-left: 12px; 
+    margin-top: -2px; 
+}
+
+/* Style for the player name */
+#playerName {
+    display: inline-block; /* Ensures the image and name are on the same line */
+}
+
+/* Style for the left rectangle */
+#stats {
+    position: absolute;
+    margin-left: -265px;
+    width: 250px;
+    height: 345px;
+    background-color: #c0c0c0;
+    border: 2px solid #ffffff;
+    float: right;
+}
+
+#profileImg {
+    width: 60%;
+    height: auto;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+
+.centered-input {
+    width: 70%;
+    height: 16px;
+    margin-top: 8px;
+    margin-left: 30px;
+    text-align: center;
+}
+
+.ready-button {
+    width: 30%;
+    margin-top: 10px;
+    margin-left: 84px;
+    padding: 5px;
+    background-color: #FF0000; /* red color for default state */
+    color: white;
+    cursor: pointer;
+    border: none;
+}
+
+.gauge {
+    display: flex;
+    width: 160px;
+    height: 20px;
+    overflow: hidden;
+    margin-left: 50px;
+    margin-top: 12px;
+}
+
+.unit {
+    flex: 1;
+    height: 15px;
+    box-sizing: border-box;
+    margin: .5px;
+}
+
+.colored {
+    background-color: #2acee3;
+}
+
+.gray {
+    background-color: #052024;
+}
+
+/* Style for the icons */
+#speedIcon {
+    position: absolute;
+    width: 56px;
+    height: 56px;
+    margin-left: -158px;
+    margin-top: 30px;
+}
+
+#bombIcon {
+    position: absolute;
+    width: 54px;
+    height: 54px;
+    margin-top: -16px;
+    margin-left: -47px;
+}
+
+#rangeIcon {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    margin-top: -12px;
+    margin-left: -40px;
+}
+
+/* Style for the left rectangle */
+#chatRoom {
+    position: absolute;
+    margin-left: -265px;
+    margin-top: 360px;
+    width: 250px;
+    height: 474px;
+    background-color: #c0c0c0;
+    border: 2px solid #ffffff;
+    float: right;
+}
+
+.chat-container {
+    position: relative;
+    width: 250px;
+    border-radius: 8px;
+    padding: 5px;
+}
+
+.chat-output {
+    width: 244px;
+    height: 432px;
+    margin-left: 3px;
+    margin-top: 3px;
+    overflow-y: auto;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 10px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.input-container {
+    display: flex;
+}
+
+input {
+    width: 200px;
+    padding: 5px;
+    margin-left: 2px;
+    margin-right: 2px;
+    margin-top: -5px
+    
+}

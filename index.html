@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.socket.io/4.1.2/socket.io.min.js"></script>
+    <title>Balloono Game</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <div class="canvas-container">
+        <div id="stats">
+            <img src="img/monkey.png" alt="Profile Image" id="profileImg">
+            <input type="text" id="username" name="username" value="Player1" class="centered-input">
+            <input type="button" id="readyButton" value="Ready" class="ready-button">
+            <img src="img/speed_icon.png" id="speedIcon">
+            <div class="gauge" id="speedGuage">
+                <!-- Colored boxes representing units -->
+                <div class="unit colored" id="s1"></div>
+                <!-- Gray boxes representing remaining units -->
+                <div class="unit gray" id="s2"></div>
+                <div class="unit gray" id="s3"></div>
+                <div class="unit gray" id="s4"></div>
+                <div class="unit gray" id="s5"></div>
+                <div class="unit gray" id="s6"></div>
+                <div class="unit gray" id="s7"></div>
+                <div class="unit gray" id="s8"></div>
+                <div class="unit gray" id="s9"></div>
+                <div class="unit gray" id="s10"></div>
+                <div class="unit gray" id="s11"></div>
+                <div class="unit gray" id="s12"></div>
+            </div>
+
+            <div class="gauge" id="bombGuage">
+                <img src="img/balloon_icon.png" id="bombIcon">
+                <!-- Colored boxes representing units -->
+                <div class="unit colored" id="b1"></div>
+                <!-- Gray boxes representing remaining units -->
+                <div class="unit gray" id="b2"></div>
+                <div class="unit gray" id="b3"></div>
+                <div class="unit gray" id="b4"></div>
+                <div class="unit gray" id="b5"></div>
+                <div class="unit gray" id="b6"></div>
+                <div class="unit gray" id="b7"></div>
+                <div class="unit gray" id="b8"></div>
+                <div class="unit gray" id="b9"></div>
+                <div class="unit gray" id="b10"></div>
+                <div class="unit gray" id="b11"></div>
+                <div class="unit gray" id="b12"></div>
+            </div>
+
+            <div class="gauge" id="rangeGuage">
+                <img src="img/range_icon.png" id="rangeIcon">
+                <!-- Colored boxes representing units -->
+                <div class="unit colored" id="r3"></div>
+                <!-- Gray boxes representing remaining units -->
+                <div class="unit gray" id="r4"></div>
+                <div class="unit gray" id="r5"></div>
+                <div class="unit gray" id="r6"></div>
+                <div class="unit gray" id="r7"></div>
+                <div class="unit gray" id="r8"></div>
+                <div class="unit gray" id="r9"></div>
+                <div class="unit gray" id="r10"></div>
+                <div class="unit gray" id="r11"></div>
+                <div class="unit gray" id="r12"></div>
+                <div class="unit gray" id="r13"></div>
+                <div class="unit gray" id="r14"></div>
+            </div>
+        </div>
+
+
+        <div id="chatRoom">
+            <div id="chat-container">
+                <div class="chat-output" id="chat-output"></div>
+                <div class="input-container">
+                    <input type="text" id="message-input" placeholder="Type your message..." disabled>
+                    <input type="button" id="sendButton" value="Send" class="send-button" onclick="sendMessage()">
+                </div>
+            </div>
+        </div>
+
+        <canvas width="960" height="832" id="game"></canvas>
+
+
+        <div id="playerInfo">
+            <div id="playerName"></div>
+            <img src="img/waiting.png" alt="Player Image" id="playerImage">
+        </div>
+    </div>
+
+    <audio id="deathSound" src="sounds/death_bubble.wav" preload="auto"></audio>
+    <audio id="dropSound" src="sounds/drop_balloon.mp3" preload="auto"></audio>
+    <audio id="hitSound" src="sounds/hit_bubble.wav" preload="auto"></audio>
+    <audio id="itemSound" src="sounds/pickup_item.mp3" preload="auto"></audio>
+    <audio id="popSound" src="sounds/pop_balloon.wav" preload="auto"></audio>
+    <audio id="releaseSound" src="sounds/release_bubble.wav" preload="auto"></audio>
+
+    <script src="player.js"></script>
+    <script src="bot.js"></script>
+    <script src="bomb.js"></script>
+    <script src="item.js"></script>
+    <script src="app.js"></script>
+    <script src="eventListeners.js"></script>
+</body>
+</html>
