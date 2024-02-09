@@ -1,5 +1,5 @@
 # Balloono-Single-Player
-Single Player Variation of the game Bomberman <br />
+Single Player Variation of the game Bomberman written in JavaScript, HTML, and CSS with client-server communication <br />
 Recreation of the game Balloono from the website OMGPOP <br />
 <br />
 Gameplay: <br />
