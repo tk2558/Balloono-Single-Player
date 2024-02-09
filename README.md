@@ -18,9 +18,9 @@ Features:<br />
   - Range of Bomb: Number of spaces explosion of bomb will destroy horizontally and verticallyy<br />
   
 - Power Ups have a chance of dropping after destroying breakable terrain (brown boxes)... <br />
-- There are 3 different powers for each of the Player's stat <br />
-- Collecting one by going to its space will enhance one of Player's stats based on the Power Up <br />
-- Player stat increase will be reflected by the gauge under Player Profile and will be indicated with an audio cue <br />
+  - There are 3 different power ups for each of the Player's stat <br />
+  - Collecting one by going to its space will enhance one of Player's stats based on the Power Up <br />
+  - Player stat increase will be reflected by the gauge under Player Profile and will be indicated with an audio cue <br />
 
 - Terrarin that are unbreakable (trees, grass, gray squares) are preset but breakable terrarin (brown boxes) are randomly generated <br />
 
