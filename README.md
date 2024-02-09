@@ -22,6 +22,8 @@ There are 3 different powers for each of the Player's stat <br />
 Collecting one by going to its space will enhance one of Player's stats based on the Power Up <br />
 Player stat increase will be reflected by the gauge under Player Profile and will be indicated with an audio cue <br />
 <br />
+Terrarin that are unbreakable (trees, grass, gray squares) are preset but breakable terrarin (brown boxes) are randomly generated <br />
+<br />
 Chat Box will display certain actions such as when a bot is defeated and by who <br />
 Players can also uses chat box to communicate to themselves <br />
 <br />
