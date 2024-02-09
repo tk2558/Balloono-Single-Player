@@ -15,7 +15,7 @@ Features:<br />
 - Player has three different stats...
   - Speed: Speed of character (Higher speed = faster action) <br />
   - Number of Bombs: Number of bombs player can place at a time before needing to wait for a bomb to denotate <br />
-  - Range of Bomb: Number of spaces explosion of bomb will destroy horizontally and verticall<br />
+  - Range of Bomb: Number of spaces explosion of bomb will destroy horizontally and verticallyy<br />
   
 - Power Ups have a chance of dropping after destroying breakable terrain (brown boxes)... <br />
 - There are 3 different powers for each of the Player's stat <br />
