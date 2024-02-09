@@ -1,7 +1,7 @@
 # Balloono-Single-Player
-Single Player Variation of the game Bomberman
-Recreation of the game Balloono from the website OMGPOP
-
+Single Player Variation of the game Bomberman <br />
+Recreation of the game Balloono from the website OMGPOP <br />
+<br />
 Gameplay: <br />
 Player control their character using arrows keys <br />
 Player can place a bomb/water balloon using space bar <br />
