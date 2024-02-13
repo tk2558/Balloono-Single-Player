@@ -31,4 +31,4 @@ Features:<br />
 - If player or bot is hit during this, they will be defeated <br />
 
 Start Screen:
-![](https://github.com/tk2558/Balloono-Single-Player/blob/main/gameplay/Start%20Screen.PNG)
+![](https://github.com/tk2558/Balloono-Single-Player/blob/main/gameplay/Starting%20Gameplay.gif)
