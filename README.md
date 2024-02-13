@@ -18,15 +18,16 @@ To run the Bomberman game on your local machine, follow these steps:
 2. Navigate to the cloned repository in Command Prompt with: cd Balloono-Single-Player
 3. Install all necessary dependencies in Command Prompt with: npm install express http socket.io
 4. Start the server in Command Prompt with: npm start
-   
+ 
+ <br /> 
  <br />
-Gameplay: <br />
+### Gameplay: <br />
 - Player control their character using arrows keys <br />
 - Player can place a bomb/water balloon using space bar <br />
 - Player wins when all bots have been defeated <br />
 - Player loses if their character dies <br />
-
-Features:<br />
+<br />
+### Features:<br />
 - Player enters their username to name their character <br />
 - Game does not start until player hits the ready button and has entered a name <br />
 
@@ -48,5 +49,5 @@ Features:<br />
 - When player or bot are hit by a bomb/water balloon they are put into a vulnerable status where they can't move for 3 seconds <br />
 - If player or bot is hit during this, they will be defeated <br />
 
-Start Screen:
+### Start Screen:
 ![](https://github.com/tk2558/Balloono-Single-Player/blob/main/gameplay/Starting%20Gameplay.gif)
