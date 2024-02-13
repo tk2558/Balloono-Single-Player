@@ -19,15 +19,14 @@ To run the Bomberman game on your local machine, follow these steps:
 3. Install all necessary dependencies in Command Prompt with: npm install express http socket.io
 4. Start the server in Command Prompt with: npm start
  
- <br /> 
- <br />
-### Gameplay: <br />
+
+## Gameplay: <br />
 - Player control their character using arrows keys <br />
 - Player can place a bomb/water balloon using space bar <br />
 - Player wins when all bots have been defeated <br />
 - Player loses if their character dies <br />
 <br />
-### Features:<br />
+## Features:<br />
 - Player enters their username to name their character <br />
 - Game does not start until player hits the ready button and has entered a name <br />
 
