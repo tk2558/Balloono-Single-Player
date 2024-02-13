@@ -2,6 +2,24 @@
 Single Player Variation of the game Bomberman written in JavaScript, HTML, and CSS with client-server communication <br />
 Recreation of the game Balloono from the website OMGPOP <br />
 <br />
+
+## How to Run
+
+To run the Bomberman game on your local machine, follow these steps:
+
+### Prerequisites
+
+- Node.js installed on your system
+- Git installed on your system
+
+### Instructions
+
+1. Clone the repository to your local machine using Git in Command Prompt with: git clone https://github.com/tk2558/Balloono-Single-Player
+2. Navigate to the cloned repository in Command Prompt with: cd Balloono-Single-Player
+3. Install all necessary dependencies in Command Prompt with: npm install express http socket.io
+4. Start the server in Command Prompt with: npm start
+   
+ <br />
 Gameplay: <br />
 - Player control their character using arrows keys <br />
 - Player can place a bomb/water balloon using space bar <br />
