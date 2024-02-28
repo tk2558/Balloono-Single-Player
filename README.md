@@ -46,7 +46,7 @@ To run the Bomberman game on your local machine, follow these steps:
 - Players can also uses chat box to communicate to themselves <br />
 
 - When player or bot are hit by a bomb/water balloon they are put into a vulnerable status where they can't move for 3 seconds <br />
-- If player or bot is hit during this, they will be defeated <br />
+- If player or bot is hit during this state of vulnerability, they will be defeated <br />
 
 ## Starting Gameplay:
 ![](https://github.com/tk2558/Balloono-Single-Player/blob/main/gameplay/Starting%20Gameplay.gif)
